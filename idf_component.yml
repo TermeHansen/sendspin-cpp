@@ -3,16 +3,16 @@ name: "sendspin-cpp"
 dependencies:
   idf: ">=5.1"
   espressif/esp_websocket_client: ">=1.0.0"
-  bblanchon/arduinojson: "==7.4.1"
+  bblanchon/arduinojson: ">=7.4.2"
   esphome/micro-flac:
-    version: "0.1.1"
+    version: ">=0.1.1"
   esphome/micro-opus:
-    version: "0.3.5"
+    version: ">=0.3.5"
 description: "Sendspin synchronized audio streaming client for ESP32"
 license: "Apache-2.0"
 maintainers:
   - Kevin Ahrendt <kevin.ahrendt@openhomefoundation.org>
-version: "0.1.0"
+version: "0.0.0"
 url: https://github.com/sendspin/sendspin-cpp
 repository: https://github.com/sendspin/sendspin-cpp.git
 files:
